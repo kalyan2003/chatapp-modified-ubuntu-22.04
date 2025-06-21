@@ -103,11 +103,11 @@ CHANNEL_LAYERS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.getenv('DB_NAME', ''),
-        'USER': os.getenv('DB_USER', ''),
-        'PASSWORD': os.getenv('DB_PASSWORD', ''),
-        'HOST': os.getenv('DB_HOST', ''),
-        'PORT': os.getenv('DB_PORT', '3306'),
+        'NAME': 'chatapp',
+        'USER': 'chatapp',
+        'PASSWORD': 'J.YqwX83zz',
+        'HOST': '10.0.13.199',
+        'PORT': '3306',
     }
 }
 
