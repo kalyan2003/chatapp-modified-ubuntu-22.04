@@ -106,7 +106,7 @@ DATABASES = {
         'NAME': 'chatapp',
         'USER': 'chatapp',
         'PASSWORD': 'J.YqwX83zz',
-        'HOST': '10.0.13.199',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
